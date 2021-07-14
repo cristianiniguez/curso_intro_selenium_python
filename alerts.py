@@ -31,7 +31,7 @@ class CompareProducts(unittest.TestCase):
         alert.accept()
 
     def tearDown(self):
-        return super().tearDown()
+        self.driver.quit()
 
 
 if __name__ == '__main__':
